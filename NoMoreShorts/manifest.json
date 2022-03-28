@@ -2,7 +2,7 @@
   "manifest_version": 3,
     "name": "NoMoreShorts",
     "version": "1.0",
-    "description": "NOTE: You must refresh upon clicking on a shorts link, as I don't know how that affects the script. A simple script that redirects all shorts links to normal YouTube videos",
+    "description": "NOTE: You must refresh upon clicking on a shorts link, as I don't know how to code. A simple script that redirects all shorts links to normal YouTube videos",
     "content_scripts":[{
       "matches": ["https://www.youtube.com/shorts/*"],
        "js": ["redir.js"] 
